@@ -18,12 +18,12 @@ function updateProductName(index, newName) {
   products[index] = newName;
 }
 
-// ✿ Remove a Product ✿
+// ✿ Remove  Product ✿
 function removeLastProduct() {
   products.pop();
 }
 
-// Export the necessary parts for testing
+// Export parts for testing
 module.exports = {
   logFirstProduct:
     typeof logFirstProduct !== 'undefined' ? logFirstProduct : undefined,
